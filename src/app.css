@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .container {
+    @apply mt-10 w-full max-w-xl mx-auto;
+  }
+  
+  .toplay {
+    @apply card card-side bg-blue-100 shadow-lg my-3 rounded-md items-center justify-between px-4;
+  }
+  
+  .toplay.completed {
+    @apply bg-green-400;
+  }
+  
+  .toplay.completed h3.card-title {
+    @apply line-through;
+  }
+  
+  .toplay .content {
+    @apply py-4 flex flex-row items-center gap-3;
+  }
+  
+  .toplay .content {
+    @apply py-4 flex flex-row items-center gap-3;
+  }
+  
+  .toplay input[type="checkbox"] {
+    @apply checkbox checkbox-primary checkbox-sm;
+  }
+
+  .input-field {
+    @apply w-full p-3 text-lg border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500
+  }
+
+  .search-results {
+    @apply bg-white border rounded-md shadow-md mt-2 overflow-hidden
+  }
+
+  .search-result {
+    @apply p-3 hover:bg-blue-100 cursor-pointer border-b last:border-b-0
+  } */
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  .container {
+      @apply mt-10 w-full max-w-xl mx-auto;
+  }
+  
+  .toplay {
+      @apply card card-side bg-blue-100 shadow-lg my-3 rounded-md items-center justify-between px-4;
+  }
+  
+  .toplay-item.completed h3.card-title {
+      @apply line-through;
+  }
+  
+  .toplay-item .content {
+      @apply py-4 flex flex-row items-center gap-3;
+  }
+  
+  .toplay-item input[type="checkbox"] {
+      @apply checkbox checkbox-primary checkbox-sm;
+  }
+  
+  .input-field {
+      @apply w-full p-4 mt-2 text-lg border rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+  
+  .search-results {
+      @apply bg-white border rounded-md shadow-lg mt-2 overflow-hidden max-h-48 overflow-y-auto;
+  }
+  
+  .search-result {
+      @apply p-4 hover:bg-blue-300 cursor-pointer border-b last:border-b-0 transition duration-200;
+  }
+  
+  .search-result:hover {
+      @apply bg-blue-400 text-white;
+  }
+  
+  .btn-error {
+      @apply bg-red-500 text-white px-3 py-1 rounded hover:bg-red-700 transition duration-200;
+  }
+  
+  .toplay-list {
+      @apply w-full max-w-xl flex flex-col gap-2 mt-2;
+  }
+  
+  .toplay-item {
+      @apply p-4 rounded-lg shadow-md flex justify-between items-center transition duration-200;
+  }
+  
+  .toplay-item.completed {
+      @apply bg-green-300;
+  }
+  
+  .toplay-item.pending {
+      @apply bg-blue-200;
+  }
+  
+  .search-container {
+      @apply w-full max-w-xl;
+  }
+  
+  .search-container input {
+      @apply w-full p-4 text-lg border rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+  
