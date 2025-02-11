@@ -18,7 +18,7 @@ A simple **To-Play list** built with **SolidJS** that allows users to **search, 
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/pauravhparam/solidjs-toplay.git
+git clone https://github.com/pauravhp/solidjs-toplay.git
 cd solidjs-toplay
 ```
 
