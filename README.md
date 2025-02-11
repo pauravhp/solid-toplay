@@ -1,32 +1,68 @@
-# SolidStart
+# SolidJS To-Play App
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+## 📌 Project Overview
 
-## Creating a project
+A simple **To-Play list** built with **SolidJS** that allows users to **search, add, mark, and remove board games** they want to play. The app integrates the **BoardGameGeek API** for real-time board game search.
 
-```bash
-# create a new project in the current directory
-npm init solid@latest
+## ✨ Features
 
-# create a new project in my-app
-npm init solid@latest my-app
+- 🔍 **Search BoardGameGeek API** for board games.
+- ✅ **Mark games as played** with a checkbox.
+- ➕ **Add board games to the list**.
+- ❌ **Remove games from the list**.
+- 💾 **Persistent storage** using LocalStorage.
+- 🎨 **Styled with TailwindCSS**.
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/pauravhparam/solidjs-toplay.git
+cd solidjs-toplay
 ```
 
-## Developing
+### 2️⃣ Install Dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```sh
+npm install
+```
 
-```bash
+### 3️⃣ Run the App
+
+```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+The app should be available at `http://localhost:3000`
 
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
+## 🚀 Usage
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
+1. **Search for a board game** using the input field.
+2. **Click a game** from the search results to add it to your list.
+3. **Check the box** to mark it as played.
+4. **Click the red ❌ button** to remove it.
+5. The list **persists across sessions** via Local Storage.
 
-## This project was created with the [Solid CLI](https://solid-cli.netlify.app)
+## 🛠️ Technologies Used
+
+- **SolidJS** (Frontend framework)
+- **BoardGameGeek API** (Game search functionality)
+- **TailwindCSS** (Styling)
+- **LocalStorage** (Data persistence)
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit **pull requests** if you have any improvements.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## 🙌 Credits
+
+This project was inspired by the **ARC Software Development Team, University of Victoria Systems**. The original tutorial can be found here: [SolidJS Todo List Tutorial](https://arcsoft.uvic.ca/log/2024-12-10-solidjs-todolist/).
+
+---
+
+🚀 **Start building your board game To-Play list today!** 🎲
